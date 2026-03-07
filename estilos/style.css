@@ -141,3 +141,38 @@ div.conteiner iframe{
   height: 100%;
   border-radius: 8px;
 }
+
+#skill-conteiner{
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 30px;
+}
+
+#skill-conteiner .info{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#skill-conteiner .nome{
+  font-weight: bold;
+  color: var(--texto);
+}
+
+#skill-conteiner .porcent{
+  font-weight: bold;
+  color: var(--destaque);
+}
+
+#skill-conteiner .barra{
+  background-color: var(--fundo-principal);
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+}
+
+#skill-conteiner .progresso{
+  background-color: var(--destaque);
+  height: 100%;
+  border-radius: 4px;
+}
