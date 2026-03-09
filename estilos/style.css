@@ -266,6 +266,21 @@ section[id], #video, #skills, #formacao, #projetos{
 }
 
 @media screen and (min-width: 768px){
+    main{
+      grid-template-columns: auto 300px 1fr auto;
+    }
+
+    section#Ficha{
+        grid-column: 2 / 3;
+        height: fit-content;
+        position: sticky;
+        top: 55px;
+    }
+
+    section#detalhes{
+        grid-column: 3 / 4;
+    }
+
     #skill-conteiner{
       grid-template-columns: 1fr 1fr;
   }
